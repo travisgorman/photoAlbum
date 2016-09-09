@@ -32,7 +32,7 @@ $(document).ready(function() {
     $('.photoImage').on('click', function(evt) {
       var src = $(this).attr('src');
       photoClickHandler(src.slice(src.indexOf('/')+1, src.lastIndexOf('.')));
-
+      
     });
 
     $('.backLink1').on('click', function (){

@@ -1,400 +1,392 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <title>Photo Albums</title>
     <link rel="stylesheet" href="styles/main.css" media="screen" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
 </head>
-
 <body>
-    <section id="homePage">
-        <header class="mainHeader">
-            <h1> My Albums</h1>
-        </header>
-        <div class="mainContainer">
-            <div class="albumCover" id="album1">
-                <img class="coverImage" src="images/bubbles.jpg" />
-                <div class="mainCaption">Banality</div>
-            </div>
-            <div class="albumCover" id="album2">
-                <img class="coverImage" src="images/monkey.jpg" />
-                <div class="mainCaption">Balloons</div>
-            </div>
-            <div class="albumCover" id="album3">
-                <img class="coverImage" src="images/splitrocker.jpg" />
-                <div class="mainCaption">Easyfun</div>
-            </div>
-            <div class="albumCover" id="album4">
-                <img class="coverImage" src="images/terrier.jpg" alt="" />
-                <div class="mainCaption">Made in Heaven</div>
-            </div>
-            <div class="albumCover" id="album5">
-                <img class="coverImage" src="images/hulk1.jpg" alt="" />
-                <div class="mainCaption">Hulk Elvis</div>
-            </div>
-            <div class="albumCover" id="album6">
-                <img class="coverImage" src="images/birdbath.jpg" alt="" />
-                <div class="mainCaption">Gazing Ball</div>
-            </div>
-        </div>
-    </section>
-    <section class="hidden albumPage" id="albumPage1">
-        <nav>
-            <ul>
-                <li>Banality</li>
-                <li>Balloons</li>
-                <li>Easyfun</li>
-                <li>Made in Heaven</li>
-                <li>Hulk Elvis</li>
-                <li>Gazing Ball</li>
-                <li>Home</li>
-            </ul>
-        </nav>
+  <section id="homePage">
+    <header class="mainHeader">
+      <h1> Jeff Koons: Retrospective</h1>
+      <p>A selection of notable works</p>
+    </header>
+    <div class="mainContainer">
+      <div class="albumCover" id="album1">
+        <img class="coverImage" src="images/bubbles.jpg" />
+        <div class="mainCaption">Banality</div>
+      </div>
+      <div class="albumCover" id="album2">
+        <img class="coverImage" src="images/monkey.jpg" />
+        <div class="mainCaption">Balloons</div>
+      </div>
+      <div class="albumCover" id="album3">
+        <img class="coverImage" src="images/splitrocker.jpg" />
+        <div class="mainCaption">Easyfun</div>
+      </div>
+      <div class="albumCover" id="album4">
+        <img class="coverImage" src="images/terrier.jpg" alt="" />
+        <div class="mainCaption">Made in Heaven</div>
+      </div>
+      <div class="albumCover" id="album5">
+        <img class="coverImage" src="images/hulk1.jpg" alt="" />
+        <div class="mainCaption">Hulk Elvis</div>
+      </div>
+      <div class="albumCover" id="album6">
+        <img class="coverImage" src="images/birdbath.jpg" alt="" />
+        <div class="mainCaption">Gazing Ball</div>
+      </div>
+    </div>
+  </section>
+  <section class="hidden albumPage" id="albumPage1">
+    <nav>
+      <ul>
+        <li>Banality</li>
+        <li>Balloons</li>
+        <li>Easyfun</li>
+        <li>Made in Heaven</li>
+        <li>Hulk Elvis</li>
+        <li>Gazing Ball</li>
+        <li>Home</li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Banality</h1>
+    </header>
+    <div class="albumsContainer">
+      <div class="photoCover">
+        <img class="photoImage" id="photo1-1" src="images/bubbles.jpg" />
+        <div class="caption">Michael Jackson and Bubbles</div>
+      </div>
+      <div class="photoCover">
+        <img class="photoImage" id="photo2-1" src="images/amore.jpg" />
+        <div class="caption">Amore</div>
+      </div>
+      <div class="photoCover">
+        <img class="photoImage" id="photo3-1" src="images/fait.jpg"  />
+        <div class="caption">Fait D'Hiver</div>
+      </div>
+    </div>
+  </section>
+  <section class="hidden albumPage" id="albumPage2">
+    <nav>
+      <ul>
+        <li>Banality</li>
+        <li>Balloons</li>
+        <li>Easyfun</li>
+        <li>Made in Heaven</li>
+        <li>Hulk Elvis</li>
+        <li>Gazing Ball</li>
+        <li>Home</li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Balloons</h1>
+    </header>
+    <div class="albumsContainer">
+      <div class="photoCover">
+        <img class="photoImage" id="photo1-2" src="images/swan.jpg" />
+        <div class="caption">Swan</div>
+      </div>
+      <div class="photoCover">
+        <img class="photoImage" id="photo2-2" src="images/monkey.jpg" />
+        <div class="caption">Monkey</div>
+      </div>
+      <div class="photoCover">
+        <img class="photoImage" id="photo3-2" src="images/bunny.jpg" />
+        <div class="caption">Bunny</div>
+      </div>
+    </div>
+  </section>
+  <section class="hidden albumPage" id="albumPage3">
+    <nav>
+      <ul>
+        <li>Banality</li>
+        <li>Balloons</li>
+        <li>Easyfun</li>
+        <li>Made in Heaven</li>
+        <li>Hulk Elvis</li>
+        <li>Gazing Ball</li>
+        <li>Home</li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Easyfun</h1>
+    </header>
+    <div class="albumsContainer">
+      <div class="photoCover">
+        <img class="photoImage" id="photo1-3" src="images/cutout.jpg" />
+        <div class="caption">Cutout</div>
+      </div>
+      <div class="photoCover">
+        <img class="photoImage" id="photo2-3" src="images/hair.jpg" />
+        <div class="caption">Hair</div>
+      </div>
+      <div class="photoCover">
+        <img class="photoImage" id="photo3-3" src="images/splitrocker.jpg" />
+        <div class="caption">Splitrocker</div>
+      </div>
+    </div>
+  </section>
+  <section class="hidden albumPage" id="albumPage4">
+    <nav>
+      <ul>
+        <li>Banality</li>
+        <li>Balloons</li>
+        <li>Easyfun</li>
+        <li>Made in Heaven</li>
+        <li>Hulk Elvis</li>
+        <li>Gazing Ball</li>
+        <li>Home</li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Made in Heaven</h1>
+    </header>
+    <div class="albumsContainer">
+      <div class="photoCover">
+        <img class="photoImage" id="photo1-4" src="images/cat.jpg" />
+        <div class="caption">Cat</div>
+      </div>
+      <div class="photoCover">
+        <img class="photoImage" id="photo2-4" src="images/poodle.jpg" />
+        <div class="caption">Poodle</div>
+      </div>
+      <div class="photoCover">
+        <img class="photoImage" id="photo3-4" src="images/terrier.jpg" />
+        <div class="caption">Terrier</div>
+      </div>
+    </div>
+  </section>
+  <section class="hidden albumPage" id="albumPage5">
+    <nav>
+      <ul>
+        <li>Banality</li>
+        <li>Balloons</li>
+        <li>Easyfun</li>
+        <li>Made in Heaven</li>
+        <li>Hulk Elvis</li>
+        <li>Gazing Ball</li>
+        <li>Home</li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Hulk Elvis</h1>
+    </header>
+    <div class="albumsContainer">
+      <div class="photoCover">
+        <img class="photoImage" id="photo1-5" src="images/hulk1.jpg" />
+        <div class="caption">Hulk #1</div>
+      </div>
+      <div class="photoCover">
+        <img class="photoImage" id="photo2-5" src="images/hulk2.jpg" />
+        <div class="caption">Hulk #2</div>
+      </div>
+      <div class="photoCover">
+        <img class="photoImage" id="photo3-5" src="images/hulk3.jpg" />
+        <div class="caption">Hulk #3</div>
+      </div>
+    </div>
+  </section>
+  <section class="hidden albumPage" id="albumPage6">
+    <nav>
+      <ul>
+        <li>Banality</li>
+        <li>Balloons</li>
+        <li>Easyfun</li>
+        <li>Made in Heaven</li>
+        <li>Hulk Elvis</li>
+        <li>Gazing Ball</li>
+        <li>Home</li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Gazing Ball</h1>
+    </header>
+    <div class="albumsContainer">
+      <div class="photoCover">
+        <img class="photoImage" id="photo1-6" src="images/diana.jpg" alt="" />
+        <div class="caption">Diana</div>
+      </div>
+      <div class="photoCover">
+        <img class="photoImage" id="photo2-6" src="images/snowman.jpg" alt="" />
+        <div class="caption">Snowman</div>
+      </div>
+      <div class="photoCover">
+        <img class="photoImage" id="photo3-6" src="images/birdbath.jpg" alt="" />
+        <div class="caption">Birdbath</div>
+      </div>
+    </div>
+  </section>
+  <section class="hidden individual">
+    <div class="photoContainer" id="bubbles">
+      <header>
+        <h1>Michael Jackson and Bubbles</h1>
+      </header>
+      <div class="backLink backLink1">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Banality
+      </div>
+      <img class="profile" src="images/bubbles.jpg" />
+    </div>
+    <div class="photoContainer" id="amore">
+      <header>
+        <h1>Amore</h1>
+      </header>
+      <div class="backLink backLink1">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Banality
+      </div>
+      <img class="profile" src="images/amore.jpg" />
+    </div>
+    <div class="photoContainer" id="fait">
+      <header>
+        <h1>Fait D'Hiver</h1>
+      </header>
+      <div class="backLink backLink1">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Banality
+      </div>
+      <img class="profile" src="images/fait.jpg" />
+    </div>
+    <div class="photoContainer" id="swan">
+      <header>
+        <h1>Swan</h1>
+      </header>
+      <div class="backLink backLink2">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Balloons
+      </div>
+      <img class="profile" src="images/swan.jpg" />
+    </div>
+    <div class="photoContainer" id="monkey">
+      <header>
+        <h1>Monkey</h1>
+      </header>
+      <div class="backLink backLink2">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Balloons
+      </div>
+      <img class="profile" src="images/monkey.jpg" />
+    </div>
+    <div class="photoContainer" id="bunny">
+      <header>
+        <h1>Bunny</h1>
+      </header>
+      <div class="backLink backLink2">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Balloons
+      </div>
+      <img class="profile" src="images/bunny.jpg"  />
+    </div>
+    <div class="photoContainer" id="cutout">
+      <header>
+        <h1>Cutout</h1>
+      </header>
+      <div class="backLink backLink3">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: easyfun
+      </div>
+      <img class="profile" src="images/cutout.jpg" />
+    </div>
+    <div class="photoContainer" id="hair">
+      <header>
+        <h1>Hair</h1>
+      </header>
+      <div class="backLink backLink3">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: easyfun
+      </div>
+      <img class="profile" src="images/hair.jpg" />
+    </div>
+    <div class="photoContainer" id="splitrocker">
+      <header>
+        <h1>Splitrocker</h1>
+      </header>
+      <div class="backLink backLink3">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: easyfun
+      </div>
+      <img class="profile" src="images/splitrocker.jpg" />
+    </div>
+    <div class="photoContainer" id="cat">
+      <header>
+        <h1>Cat</h1>
+      </header>
+      <div class="backLink backLink4 heaven">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Made in Heaven
+      </div>
+      <img class="profile" src="images/cat.jpg" />
+    </div>
+    <div class="photoContainer" id="poodle">
+      <header>
+        <h1>Poodle</h1>
+      </header>
+      <div class="backLink backLink4 heaven">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Made in Heaven
+      </div>
+      <img class="profile" src="images/poodle.jpg" />
+    </div>
+    <div class="photoContainer" id="terrier">
+      <header>
+        <h1>Terrier</h1>
+      </header>
+      <div class="backLink backLink4 heaven">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Made in Heaven
+      </div>
+      <img class="profile" src="images/terrier.jpg" />
+    </div>
+    <div class="photoContainer" id="hulk1">
+      <header>
+        <h1>Hulk 1</h1>
+      </header>
+      <div class="backLink backLink5">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Hulk Elvis
+      </div>
+      <img class="profile" src="images/hulk1.jpg" />
+    </div>
+    <div class="photoContainer" id="hulk2">
+      <header>
+        <h1>Hulk 2</h1>
+      </header>
+      <div class="backLink backLink5">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Hulk Elvis
+      </div>
+      <img class="profile" src="images/hulk2.jpg" />
+    </div>
+    <div class="photoContainer" id="hulk3">
+      <header>
+        <h1>Hulk 3</h1>
+      </header>
+      <div class="backLink backLink5">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Hulk Elvis
+      </div>
+      <img class="profile" src="images/hulk3.jpg" />
+    </div>
+    <div class="photoContainer" id="diana">
+      <header>
+        <h1>Diana</h1>
+      </header>
+      <div class="backLink backLink6">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Gazing Ball
+      </div>
+      <img class="profile" src="images/diana.jpg" />
+    </div>
+    <div class="photoContainer" id="snowman">
+      <header>
+        <h1>Snowman</h1>
+      </header>
+      <div class="backLink backLink6">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Gazing Ball
+      </div>
+      <img class="profile" src="images/snowman.jpg" />
+    </div>
+    <div class="photoContainer" id="birdbath">
+      <header>
+        <h1>Birdbath</h1>
+      </header>
+      <div class="backLink backLink6">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Gazing Ball
+      </div>
+      <img class="profile" src="images/birdbath.jpg" />
+    </div>
+  </section>
 
-        <header>
-            <h1>Banality</h1>
-        </header>
-        <div class="albumsContainer">
-            <div class="photoCover">
-                <img class="photoImage" id="photo1-1" src="images/bubbles.jpg" />
-                <div class="caption">Michael Jackson and Bubbles</div>
-            </div>
-            <div class="photoCover">
-                <img class="photoImage" id="photo2-1" src="images/amore.jpg" />
-                <div class="caption">Amore</div>
-            </div>
-            <div class="photoCover">
-                <img class="photoImage" id="photo3-1" src="images/fait.jpg"  />
-                <div class="caption">Fait D'Hiver</div>
-            </div>
-        </div>
-    </section>
-
-    <section class="hidden albumPage" id="albumPage2">
-        <nav>
-            <ul>
-                <li>Banality</li>
-                <li>Balloons</li>
-                <li>Easyfun</li>
-                <li>Made in Heaven</li>
-                <li>Hulk Elvis</li>
-                <li>Gazing Ball</li>
-                <li>Home</li>
-            </ul>
-
-        </nav>
-        <header>
-            <h1>Balloons</h1>
-        </header>
-        <div class="albumsContainer">
-            <div class="photoCover">
-                <img class="photoImage" id="photo1-2" src="images/swan.jpg" />
-                <div class="caption">Swan</div>
-            </div>
-            <div class="photoCover">
-                <img class="photoImage" id="photo2-2" src="images/monkey.jpg" />
-                <div class="caption">Monkey</div>
-            </div>
-            <div class="photoCover">
-                <img class="photoImage" id="photo3-2" src="images/bunny.jpg" />
-                <div class="caption">Bunny</div>
-            </div>
-        </div>
-    </section>
-    <section class="hidden albumPage" id="albumPage3">
-        <nav>
-            <ul>
-                <li>Banality</li>
-                <li>Balloons</li>
-                <li>Easyfun</li>
-                <li>Made in Heaven</li>
-                <li>Hulk Elvis</li>
-                <li>Gazing Ball</li>
-                <li>Home</li>
-            </ul>
-
-        </nav>
-        <header>
-            <h1>Easyfun</h1>
-        </header>
-        <div class="albumsContainer">
-            <div class="photoCover">
-                <img class="photoImage" id="photo1-3" src="images/cutout.jpg" />
-                <div class="caption">Cutout</div>
-            </div>
-            <div class="photoCover">
-                <img class="photoImage" id="photo2-3" src="images/hair.jpg" />
-                <div class="caption">Hair</div>
-            </div>
-            <div class="photoCover">
-                <img class="photoImage" id="photo3-3" src="images/splitrocker.jpg" />
-                <div class="caption">Splitrocker</div>
-            </div>
-        </div>
-    </section>
-    <section class="hidden albumPage" id="albumPage4">
-        <nav>
-            <ul>
-                <li>Banality</li>
-                <li>Balloons</li>
-                <li>Easyfun</li>
-                <li>Made in Heaven</li>
-                <li>Hulk Elvis</li>
-                <li>Gazing Ball</li>
-                <li>Home</li>
-            </ul>
-        </nav>
-        <header>
-            <h1>Made in Heaven</h1>
-        </header>
-        <div class="albumsContainer">
-            <div class="photoCover">
-                <img class="photoImage" id="photo1-4" src="images/cat.jpg" />
-                <div class="caption">Cat</div>
-            </div>
-            <div class="photoCover">
-                <img class="photoImage" id="photo2-4" src="images/poodle.jpg" />
-                <div class="caption">Poodle</div>
-            </div>
-            <div class="photoCover">
-                <img class="photoImage" id="photo3-4" src="images/terrier.jpg" />
-                <div class="caption">Terrier</div>
-            </div>
-        </div>
-    </section>
-    <section class="hidden albumPage" id="albumPage5">
-        <nav>
-            <ul>
-                <li>Banality</li>
-                <li>Balloons</li>
-                <li>Easyfun</li>
-                <li>Made in Heaven</li>
-                <li>Hulk Elvis</li>
-                <li>Gazing Ball</li>
-                <li>Home</li>
-            </ul>
-
-        </nav>
-        <header>
-            <h1>Hulk Elvis</h1>
-        </header>
-        <div class="albumsContainer">
-            <div class="photoCover">
-                <img class="photoImage" id="photo1-5" src="images/hulk1.jpg" />
-                <div class="caption">Hulk #1</div>
-            </div>
-            <div class="photoCover">
-                <img class="photoImage" id="photo2-5" src="images/hulk2.jpg" />
-                <div class="caption">Hulk #2</div>
-            </div>
-            <div class="photoCover">
-                <img class="photoImage" id="photo3-5" src="images/hulk3.jpg" />
-                <div class="caption">Hulk #3</div>
-            </div>
-        </div>
-    </section>
-    <section class="hidden albumPage" id="albumPage6">
-        <nav>
-            <ul>
-                <li>Banality</li>
-                <li>Balloons</li>
-                <li>Easyfun</li>
-                <li>Made in Heaven</li>
-                <li>Hulk Elvis</li>
-                <li>Gazing Ball</li>
-                <li>Home</li>
-            </ul>
-
-        </nav>
-        <header>
-            <h1>Gazing Ball</h1>
-        </header>
-
-        <div class="albumsContainer">
-            <div class="photoCover">
-                <img class="photoImage" id="photo1-6" src="images/diana.jpg" alt="" />
-                <div class="caption">Diana</div>
-            </div>
-            <div class="photoCover">
-                <img class="photoImage" id="photo2-6" src="images/snowman.jpg" alt="" />
-                <div class="caption">Snowman</div>
-            </div>
-            <div class="photoCover">
-                <img class="photoImage" id="photo3-6" src="images/birdbath.jpg" alt="" />
-                <div class="caption">Birdbath</div>
-            </div>
-        </div>
-    </section>
-    <!-- asdfsdf ------------------------------------------------>
-    <section class="hidden individual">
-        <div class="photoContainer" id="bubbles">
-            <header>
-                <h1>Michael Jackson and Bubbles</h1>
-            </header>
-            <div class="backLink backLink1">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Banality
-            </div>
-            <img class="profile" src="images/bubbles.jpg" />
-        </div>
-        <div class="photoContainer" id="amore">
-            <header>
-                <h1>Amore</h1>
-            </header>
-            <div class="backLink backLink1">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Banality
-            </div>
-            <img class="profile" src="images/amore.jpg" />
-        </div>
-        <div class="photoContainer" id="fait">
-            <header>
-                <h1>Fait D'Hiver</h1>
-            </header>
-            <div class="backLink backLink1">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Banality
-            </div>
-            <img class="profile" src="images/fait.jpg" />
-        </div>
-        <div class="photoContainer" id="swan">
-            <header>
-                <h1>Swan</h1>
-            </header>
-            <div class="backLink backLink2">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Balloons
-            </div>
-            <img class="profile" src="images/swan.jpg" />
-        </div>
-        <div class="photoContainer" id="monkey">
-            <header>
-                <h1>Monkey</h1>
-            </header>
-            <div class="backLink backLink2">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Balloons
-            </div>
-            <img class="profile" src="images/monkey.jpg" />
-        </div>
-        <div class="photoContainer" id="bunny">
-            <header>
-                <h1>Bunny</h1>
-            </header>
-            <div class="backLink backLink2">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Balloons
-            </div>
-            <img class="profile" src="images/bunny.jpg"  />
-        </div>
-        <div class="photoContainer" id="cutout">
-            <header>
-                <h1>Cutout</h1>
-            </header>
-            <div class="backLink backLink3">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: easyfun
-            </div>
-            <img class="profile" src="images/cutout.jpg" />
-        </div>
-        <div class="photoContainer" id="hair">
-            <header>
-                <h1>Hair</h1>
-            </header>
-            <div class="backLink backLink3">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: easyfun
-            </div>
-            <img class="profile" src="images/hair.jpg" />
-        </div>
-        <div class="photoContainer" id="splitrocker">
-            <header>
-                <h1>Splitrocker</h1>
-            </header>
-            <div class="backLink backLink3">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: easyfun
-            </div>
-            <img class="profile" src="images/splitrocker.jpg" />
-        </div>
-        <div class="photoContainer" id="cat">
-            <header>
-                <h1>Cat</h1>
-            </header>
-            <div class="backLink backLink4">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Made in Heaven
-            </div>
-            <img class="profile" src="images/cat.jpg" />
-        </div>
-        <div class="photoContainer" id="poodle">
-            <header>
-                <h1>Poodle</h1>
-            </header>
-            <div class="backLink backLink4">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Made in Heaven
-            </div>
-            <img class="profile" src="images/poodle.jpg" />
-        </div>
-        <div class="photoContainer" id="terrier">
-            <header>
-                <h1>Terrier</h1>
-            </header>
-            <div class="backLink backLink4">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Made in Heaven
-            </div>
-            <img class="profile" src="images/terrier.jpg" />
-        </div>
-        <div class="photoContainer" id="hulk1">
-            <header>
-                <h1>Hulk 1</h1>
-            </header>
-            <div class="backLink backLink5">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Hulk Elvis
-            </div>
-            <img class="profile" src="images/hulk1.jpg" alt="" />
-        </div>
-        <div class="photoContainer" id="hulk2">
-            <header>
-                <h1>Hulk 2</h1>
-            </header>
-            <div class="backLink backLink5">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Hulk Elvis
-            </div>
-            <img class="profile" src="images/hulk2.jpg" />
-        </div>
-        <div class="photoContainer" id="hulk3">
-            <header>
-                <h1>Hulk 3</h1>
-            </header>
-            <div class="backLink backLink5">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Hulk Elvis
-            </div>
-            <img class="profile" src="images/hulk3.jpg" />
-        </div>
-        <div class="photoContainer" id="diana">
-            <header>
-                <h1>Diana</h1>
-            </header>
-            <div class="backLink backLink6">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Gazing Ball
-            </div>
-            <img class="profile" src="images/diana.jpg" />
-        </div>
-        <div class="photoContainer" id="snowman">
-            <header>
-                <h1>Snowman</h1>
-            </header>
-            <div class="backLink backLink6">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Gazing Ball
-            </div>
-            <img class="profile" src="images/snowman.jpg" />
-        </div>
-        <div class="photoContainer" id="birdbath">
-            <header>
-                <h1>Birdbath</h1>
-            </header>
-            <div class="backLink backLink6">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Album: Gazing Ball
-            </div>
-            <img class="profile" src="images/birdbath.jpg" />
-        </div>
-    </section>
-
-    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="app.js">
-    </script>
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"> </script>
 </body>
 
 </html>
