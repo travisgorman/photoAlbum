@@ -1,3 +1,3 @@
 # photoAlbum
 Create a photo album with jQuery
-[Jeff Koons: Retrospective](https://github.com/travisgorman/photoAlbum)
+[Jeff Koons: Retrospective](http://moldy-peace.surge.sh)
